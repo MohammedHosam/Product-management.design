@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: system-ui;
+}
+/* start div head */
+.head {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+/* end div head */
+
+/* start div inputs */
+.inputs {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+input {
+    width: 100%;
+    outline: none;
+    height: 32px;
+    border: none;
+    padding: 4px;
+    margin: 4px 0;
+    background: #111;
+    border-radius: 4px;
+    color: #fff;
+    padding-left: 10px;
+}
+input:focus {
+    background: #000;
+    transform: scale(1.1);
+}
+.price input {
+    width: 20%;
+}
+#total {
+    background: #e60707;
+    padding: 4px 2px;
+    border-radius: 4px;
+}
+#total::before {
+    content: 'Total:';
+}
+button {
+    width: 100%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background: rgb(25, 62, 141);
+    border-radius: 20px;
+    color: #fff;
+    transition: 0.5s;
+}
+button:hover {
+    background: rgb(23, 132, 165);
+    letter-spacing: 1px;
+}
+/* end div inputs */
+
+/* start div output */
+.outputs {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.btnSearch {
+    display: flex;
+    justify-content: space-between;
+
+}
+.btnSearch button {
+    width: 45%;
+}
+#deleteAll {
+    margin: 20px 0;
+}
+table {
+    width: 100%;
+    text-align: center;
+    margin: 1% 0;
+}
+table th {
+    text-transform: uppercase;
+}
+th,td {
+    padding: 5px;
+    font-size: 5px;
+}
+tbody tr td button {
+    font-size: 5px;
+}
+/* end div output */
+
+
+/* start @media min-width: 320px */
+@media (min-width: 320px) {
+    th, td {
+        padding: 1px;
+        font-size: 6.9px;
+    }
+}
+/* end @media min-width: 320px */
+
+/* start @media min-width: 330px */
+@media (min-width: 330px) {
+    th, td {
+        padding: 1px;
+        font-size: 7.2px;
+    }
+}
+/* end @media min-width: 330px */
+
+/* start @media min-width: 340px */
+@media (min-width: 340px) {
+    th, td {
+        padding: 1px;
+        font-size: 7.5px;
+    }
+}
+/* end @media min-width: 340px */
+
+/* start @media min-width: 440px */
+@media (min-width: 440px) {
+    th, td {
+        font-size: 9px;
+        padding: 3px;
+    }
+    tbody tr td button {
+        font-size: 7.5px;
+    }
+}
+/* end @media min-width: 440px */
+
+/* start @media min-width: 600px */
+@media (min-width: 600px) {
+    th,td {
+        font-size: 12px;
+    }
+    tbody tr td button {
+        font-size: 12px;
+    }
+}
+/* end @media min-width: 600px */
+
+/* start @media min-width: 800px */
+@media (min-width: 800px) {
+    th,td {
+        font-size: 16px;
+    }
+    tbody tr td button {
+        font-size: 16px;
+    }
+}
+/* end @media min-width: 800px */
